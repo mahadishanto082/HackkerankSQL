@@ -1,3 +1,5 @@
-select months*salary as earnings from employee,
-(*)count from employee group by earnings,///maximum total earnings for all employees 
-order by desc limit 1;
+SELECT months * salary AS earnings, COUNT(*) AS employee_count
+FROM employee
+GROUP BY earnings///maximum total earnings for all employees
+ORDER BY earnings DESC///top earner
+LIMIT 1;
