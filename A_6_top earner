@@ -1,0 +1,3 @@
+select months*salary as earnings from employee,
+(*)count from employee group by earnings,///maximum total earnings for all employees 
+order by desc limit 1;
