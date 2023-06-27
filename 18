@@ -1,0 +1,5 @@
+select name
+from students
+where marks > 75
+Order By Right (name,3),id Asc
+
