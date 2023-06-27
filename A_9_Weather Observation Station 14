@@ -1,0 +1,3 @@
+SELECT TRUNCATE(max(LAT_N), 4) AS greatest_latitude
+FROM STATION
+where   LAT_N < 137.2345;
