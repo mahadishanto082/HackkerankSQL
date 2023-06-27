@@ -1,0 +1,5 @@
+SELECT COUNT(CITY) - (
+  SELECT COUNT(DISTINCT CITY)
+  FROM STATION
+) AS Result//////// cannot directly subtract the result of COUNT(DISTINCT CITY) from COUNT(CITY) in a single expression.
+FROM STATION;
