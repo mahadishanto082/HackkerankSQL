@@ -1,0 +1,2 @@
+SELECT CEILING(AVG(salary)- AVG(replace(salary,0,'')) ) AS AverageMonthlySalary
+FROM employees;
